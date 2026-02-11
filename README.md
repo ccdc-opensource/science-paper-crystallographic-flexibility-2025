@@ -62,8 +62,7 @@ python main.py mol2 F:\mol2\HXACAN.mol2 F:\tmp
 ## Citation
 
 Please cite the associated scientific paper:
-https://doi.org/10.1021/acs.jcim.5c02976
-
+<https://doi.org/10.1021/acs.jcim.5c02976>
 
 ## License
 
