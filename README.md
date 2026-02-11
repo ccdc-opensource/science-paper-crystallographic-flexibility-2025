@@ -1,6 +1,6 @@
 # Quantifying Molecular Flexibility in Crystals
 
-Supporting code for "Quantifying Molecular Flexibility Using Crystallographically Accessible Conformational Space" (A link to the paper will be added upon publication).
+Supporting code for "Quantifying Molecular Flexibility Using Crystallographically Accessible Conformational Space" https://doi.org/10.1021/acs.jcim.5c02976.
 
 ## Overview
 
@@ -62,7 +62,7 @@ python main.py mol2 F:\mol2\HXACAN.mol2 F:\tmp
 ## Citation
 
 Please cite the associated scientific paper:
-*A citation will be added upon publication*.
+https://doi.org/10.1021/acs.jcim.5c02976
 
 
 ## License
