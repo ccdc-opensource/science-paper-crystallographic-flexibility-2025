@@ -1,6 +1,6 @@
 # Quantifying Molecular Flexibility in Crystals
 
-Supporting code for "Quantifying Molecular Flexibility Using Crystallographically Accessible Conformational Space" https://doi.org/10.1021/acs.jcim.5c02976.
+Supporting code for "Quantifying Molecular Flexibility Using Crystallographically Accessible Conformational Space" <https://doi.org/10.1021/acs.jcim.5c02976>.
 
 ## Overview
 
