@@ -21,7 +21,14 @@ class CrystallographicFlexibility:
     def __init__(self, output_dir):
 
         self.output_dir_ = output_dir
-        self.calculator = ConformerGeneratorLib.MoleculeFlexibility(output_dir)
+
+        import ccdc
+        from packaging.version import Version
+        ccdc_version = Version(ccdc.__version__)
+        if ccdc_version >= Version("3.7.0"):
+            self.calculator = ConformerGeneratorLib.MoleculeFlexibility(output_dir, False)
+        else:
+            self.calculator = ConformerGeneratorLib.MoleculeFlexibility(output_dir)
 
 
     def process(self, id, mol):
